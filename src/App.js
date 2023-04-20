@@ -12,8 +12,8 @@ function App() {
       <header className="App-header">
         <nav>
           <Link to="/" className='App-link'>Home</Link> |&nbsp;
-          <Link to="/" className='App-link'>Login</Link> |&nbsp;
-          <Link to="/" className='App-link'>Sign Up</Link>
+          <Link to="/login" className='App-link'>Login</Link> |&nbsp;
+          <Link to="/signup" className='App-link'>Sign Up</Link>
         </nav>
         <Routes>
           <Route path="/login" element={<Login />}/>
